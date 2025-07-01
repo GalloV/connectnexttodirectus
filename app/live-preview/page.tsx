@@ -48,9 +48,9 @@ export default function LivePreviewPage() {
   useEffect(() => {
     const fetchAllCourses = async () => {
       try {
-        const response = await fetch('https://lms.tecktal.ai/items/lms_courses', {
+        const response = await fetch('http://34.10.248.60:8055/items/lms_courses', {
           headers: {
-            'Authorization': 'Bearer gE-Rd6oO2pbkolA8keNtihRnBs7qbU7m'
+            'Authorization': 'Bearer 7Y9Sg4-aZcRKf0yqlz1O9OGdK9IPYDys'
           }
         });
         
